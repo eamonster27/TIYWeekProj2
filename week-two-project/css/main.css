@@ -1,0 +1,137 @@
+/*
+text: #0B1942
+inline link: #00B7D3
+h2 background: #0B1942
+h2 color: #FFFFFF
+logo background: #F5005B
+navigation background: #7DDFE8
+navigation link color: #FFFFFF
+"Home" nav link background: #00A5BF
+"Calendar" nav link background: #00B7D3
+"Join" nav link background: #00D5E7
+"Up Next" background: #0B1942
+"Up Next" card background #E2E2E2
+calendar background and treatments: #0B1942
+calendar highlighted day: #F5005B
+button background: #F5005B
+copyright text: #FFFFFF
+
+font-family: 'PT Sans', sans-serif;
+<style>
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+</style>
+*/
+
+/*--------MOBILE SIZE--------*/
+/*--------MOBILE SIZE--------*/
+/*--------MOBILE SIZE--------*/
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#calendar-container {
+  background: black;
+  color: white;
+  padding-bottom: 2%;
+}
+
+#calendar-container > h3 {
+  padding: 2% 0% 0% 1%;
+}
+
+#flexbox-calendar {
+}
+
+#day13, #day27 {
+  background:red;
+}
+
+.day {
+  background-color: black;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  transform: translateY(-25px);
+}
+
+#week1, #week2, #week3, #week4 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  background-color: white;
+  width: 100%;
+}
+
+#week5 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  background-color: white;
+  width: 42.9%;
+}
+
+#week1 > *  {
+  width:14.3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+#week2 > *  {
+  width:14.3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+#week3 > *  {
+  width:14.3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+#week4 > *  {
+  width:14.3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+#week5 > *  {
+  width:33.3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+/*--------TABLET SIZE--------*/
+/*--------TABLET SIZE--------*/
+/*--------TABLET SIZE--------*/
+@media (min-width:545px) {
+
+}
+
+/*--------DESKTOP SIZE--------*/
+/*--------DESKTOP SIZE--------*/
+/*--------DESKTOP SIZE--------*/
+@media (min-width:769px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
