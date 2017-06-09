@@ -29,6 +29,306 @@ font-family: 'PT Sans', sans-serif;
   font-family: 'PT Sans', sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
+.main-heading {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main-heading > nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: 73%;
+}
+
+.main-heading a {
+  text-align: center;
+  width: 100%;
+  height: 33.3%;
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+}
+
+.main-heading a:nth-child(1) {
+  background-color: #00A5BF;
+}
+.main-heading a:nth-child(2) {
+  background-color: #00B7D3;
+}
+.main-heading a:nth-child(3) {
+  background-color: #00D5E7;
+}
+
+.logo {
+  background-image: url("../images/filmclub.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 90%;
+  width: 90%;
+  margin: 5px 0px 0px 5px;
+}
+
+.logo-container {
+  background-color: #F5005B;
+  height: 100px;
+  width: 27%;
+}
+
+#get-involved-title {
+  font-weight: lighter;
+  padding-left: 5px;
+}
+
+.get-involved-text > div > h3{
+  background-color: #0B1942;
+  color: white;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
+.get-involved-text > div > p {
+  text-align: left;
+  padding: 0px 5px 0px 5px;
+}
+
+#up-next {
+  background-color: #0B1942;
+  padding-bottom: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#up-next-title {
+  color: white;
+  font-weight: lighter;
+  padding-left: 10px;
+  margin-bottom: 0px;
+
+}
+
+#main-up-next {
+  background-color: #E2E2E2;
+  margin: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+#rashomon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#rashomon-img-wrapper {
+  height: 250px;
+  width: 50%;
+}
+
+#rashomon-img {
+  background-image: url("../images/rashomon-poster.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: -10px;
+  width: 100%;
+}
+
+#rashomon-details {
+  width: 50%;
+  margin-top: -5px;
+}
+
+#rashomon-details > ul {
+  list-style: circle;
+  margin-left: -20px;
+}
+
+#rashomon-details > h5 {
+  transform: translateY(-15px);
+  font-weight: lighter;
+  margin-bottom: -5px;
+}
+
+#rashomon-details > h4 > a {
+  color: #00D5E7;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.sub-up-next {
+  background-color: #E2E2E2;
+  margin: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+.sub-top-row {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-bottom: 15px;
+}
+
+.sub-bottom-row {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-bottom: 15px;
+}
+
+#robbery {
+  display: flex;
+  flex-flow:column nowrap;
+  width: 50%;
+}
+
+#robbery-image-wrapper {
+  width: 95%;
+}
+
+#robbery-image {
+  width:100%;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/great-train-poster.jpg");
+}
+
+#robbery-details > h5 {
+  margin: 0px;
+  font-weight: lighter;
+
+}
+
+#robbery-details > h5 > a {
+  color: #00D5E7;
+}
+
+#theif {
+  display: flex;
+  flex-flow:column nowrap;
+  width: 50%;
+}
+
+#theif-image-wrapper {
+  width: 95%;
+}
+
+#theif-image {
+  width:100%;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/bicycle-thief-poster.jpg");
+}
+
+#theif-details > h5{
+  margin: 0px;
+  font-weight: lighter;
+}
+
+#theif-details > h5 > a {
+  color: #00D5E7;
+}
+
+#nosferatu {
+  display: flex;
+  flex-flow:column nowrap;
+  width: 50%;
+}
+
+#nosferatu-image-wrapper {
+  width: 95%;
+}
+
+#nosferatu-image {
+  width:100%;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/nosferatu-poster.jpg");
+}
+
+#nosferatu-details > h5 {
+  margin: 0px;
+  font-weight: lighter;
+}
+
+#nosferatu-details > h5 > a {
+  color: #00D5E7;
+}
+
+#metropolis {
+  display: flex;
+  flex-flow:column nowrap;
+  width: 50%;
+}
+
+#metropolis-image-wrapper {
+  width: 95%;
+}
+
+#metropolis-image {
+  width:100%;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/metropolis-poster.jpg");
+}
+
+#metropolis-details > h5 {
+  margin: 0px;
+  font-weight: lighter;
+}
+
+#metropolis-details > h5 > a {
+  color: #00D5E7;
+}
+
+.main-footing > nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+.main-footing a:nth-child(1) {
+  background-color: #00A5BF;
+}
+.main-footing a:nth-child(2) {
+  background-color: #00B7D3;
+}
+.main-footing a:nth-child(3) {
+  background-color: #00D5E7;
+}
+
+.main-footing a {
+  text-align: center;
+  width: 100%;
+  height: 33.3%;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.copyright {
+  background-color: #7DDFE8;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+/*--------CALENDAR--------*/
+/*--------CALENDAR--------*/
 #calendar-container {
   background: black;
   color: white;
@@ -37,9 +337,6 @@ font-family: 'PT Sans', sans-serif;
 
 #calendar-container > h3 {
   padding: 2% 0% 0% 1%;
-}
-
-#flexbox-calendar {
 }
 
 #day13, #day27 {
@@ -109,13 +406,187 @@ font-family: 'PT Sans', sans-serif;
 /*--------TABLET SIZE--------*/
 /*--------TABLET SIZE--------*/
 @media (min-width:545px) {
+  .main-heading > nav {
+    flex-flow: row nowrap;
+    width: 80%;
+  }
 
+  .main-heading a {
+    width: 25%;
+    padding: 34px 0px 33px 0px;
+  }
+
+  .logo-container {
+    width: 20%;
+  }
+
+  #blank-space {
+    width: 50%;
+    background-color: #7DDFE8;
+  }
+
+  .get-involved-text {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .get-involved-text > div {
+    margin: 0px 10px 0px 10px;
+    width: 33%;
+  }
+
+  #get-involved-title {
+    margin-bottom: 0px;
+  }
+
+  #rashomon-img {
+    height: 320px;
+  }
+
+  #rashomon-img-wrapper {
+    height: 350px;
+  }
+
+  #rashomon-details {
+    text-align: left;
+  }
+
+  .sub-up-next {
+    display: flex;
+    flex-flow:row nowrap;
+    padding: 0px 5px 0px 10px;
+  }
+
+  .sub-top-row {
+    width: 50%;
+  }
+
+  .sub-bottom-row {
+    width: 50%;
+  }
+
+  .main-footing > nav {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .main-footing a {
+    width: 10%;
+    padding: 34px 0px 33px 0px;
+  }
+
+  .copyright {
+    width: 70%;
+    text-align: right;
+    padding: 30px 10px 0px 0px;
+  }
+
+  #robbery-image-wrapper {
+    margin-top: -20px;
+  }
+
+  #robbery-details {
+    margin-top: -30px;
+  }
+
+  #theif-image-wrapper {
+    margin-top: -20px;
+  }
+
+  #theif-details {
+    margin-top: -30px;
+  }
+
+  #nosferatu-image-wrapper {
+    margin-top: -20px;
+  }
+
+  #nosferatu-details {
+    margin-top: -30px;
+  }
+
+  #metropolis-image-wrapper {
+    margin-top: -20px;
+  }
+
+  #metropolis-details {
+    margin-top: -30px;
+  }
 }
 
 /*--------DESKTOP SIZE--------*/
 /*--------DESKTOP SIZE--------*/
 /*--------DESKTOP SIZE--------*/
 @media (min-width:769px) {
+  .logo-container {
+    width: 15%;
+  }
+
+  .main-heading > nav{
+    width: 85%;
+  }
+
+  .main-heading > nav > a{
+    width: 15%;
+  }
+
+  #blank-space {
+    width: 85%;
+  }
+
+  #up-next {
+    flex-flow: row wrap;
+  }
+
+  #main-up-next {
+    width: 45%;
+    height: 250px;
+  }
+
+  #up-next-title {
+    width: 100%;
+  }
+
+  #rashomon-img {
+    height: 220px;
+  }
+
+  #rashomon-img-wrapper {
+    height: 250px;
+  }
+
+  .sub-up-next {
+    width: 45%;
+    flex-flow: column nowrap;
+  }
+
+  .sub-top-row {
+    width: 95%;
+    padding: 15px 0px 0px 10px;
+  }
+
+  .sub-bottom-row {
+    width: 95%;
+    padding: 15px 0px 15px 10px;
+  }
+
+  #robbery-details {
+    margin-top: -10px;
+  }
+
+  #theif-details {
+    margin-top: -10px;
+  }
+
+  #nosferatu-details {
+    margin-top: -10px;
+  }
+
+  #metropolis-details {
+    margin-top: -10px;
+  }
+
 
 }
 
