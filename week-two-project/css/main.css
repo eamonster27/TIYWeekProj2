@@ -32,7 +32,8 @@ font-family: 'PT Sans', sans-serif;
 body {
   margin: 0;
 }
-
+/*--------HEADING--------*/
+/*--------HEADING--------*/
 .main-heading {
   display: flex;
   flex-flow: row nowrap;
@@ -48,10 +49,11 @@ body {
 .main-heading a {
   text-align: center;
   width: 100%;
-  height: 33.3%;
+  height: 33%;
   text-decoration: none;
   color: white;
   padding-top: 5px;
+  font-size: 12px;
 }
 
 .main-heading a:nth-child(1) {
@@ -76,10 +78,11 @@ body {
 
 .logo-container {
   background-color: #F5005B;
-  height: 100px;
+  height: 90px;
   width: 27%;
 }
-
+/*--------HOME--------*/
+/*--------HOME--------*/
 #get-involved-title {
   font-weight: lighter;
   padding-left: 5px;
@@ -294,7 +297,94 @@ body {
 #metropolis-details > h5 > a {
   color: #00D5E7;
 }
+/*--------JOIN--------*/
+/*--------JOIN--------*/
+#join-film-club {
+  padding-left: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
 
+#join-film-club > h2 {
+  font-weight: lighter;
+  margin-bottom: -10px;
+}
+
+#profile {
+  margin-bottom: -50px;
+}
+
+#profile-pic {
+  background-image: url("../images/profile-placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 82%;
+  width: 90%;
+  margin: 5px 0px 0px 10px;
+  border-radius: 200px;
+}
+
+#profile-pic-container {
+  height: 400px;
+  width: 365px;
+  padding-top: 10px;
+}
+
+#profile-pic-upload > h6 {
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+#name-email {
+  width: 98%;
+}
+
+#name {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#email {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#password-confpassword {
+  width: 98%;
+}
+
+#password {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#confpassword {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#checklist-container {
+  display: flex;
+  flex-flow:column nowrap;
+}
+
+#join-button > input {
+  background-color: #F5005B;
+  text-align: center;
+  width: 27%;
+  height: 40px;
+  color: white;
+  border-style: none;
+}
+#additional-input > textarea {
+  width: 98%;
+}
+
+
+/*--------FOOTING--------*/
+/*--------FOOTING--------*/
 .main-footing > nav {
   display: flex;
   flex-flow: column nowrap;
@@ -313,11 +403,12 @@ body {
 
 .main-footing a {
   text-align: center;
-  width: 100%;
+  width: 97%;
   height: 33.3%;
   text-decoration: none;
   color: white;
   padding: 5px;
+  font-size: 12px;
 }
 
 .copyright {
@@ -325,22 +416,29 @@ body {
   color: #FFFFFF;
   text-align: center;
   padding: 20px 0px 20px 0px;
+  font-size: 12px;
 }
 
 /*--------CALENDAR--------*/
 /*--------CALENDAR--------*/
+#calendar > h2 {
+  font-weight: lighter;
+  padding-left: 10px;
+}
+
 #calendar-container {
-  background: black;
+  background: #0B1942;
   color: white;
   padding-bottom: 2%;
 }
 
 #calendar-container > h3 {
-  padding: 2% 0% 0% 1%;
+  padding: 20px 0% 0% 10px;
+  font-weight: lighter;
 }
 
 #day13, #day27 {
-  background:red;
+  background:#F5005B;
 }
 
 .day {
@@ -406,6 +504,8 @@ body {
 /*--------TABLET SIZE--------*/
 /*--------TABLET SIZE--------*/
 @media (min-width:545px) {
+/*--------HEADING--------*/
+/*--------HEADING--------*/
   .main-heading > nav {
     flex-flow: row nowrap;
     width: 80%;
@@ -413,7 +513,7 @@ body {
 
   .main-heading a {
     width: 25%;
-    padding: 34px 0px 33px 0px;
+    padding: 27px 0px 33px 0px;
   }
 
   .logo-container {
@@ -424,7 +524,8 @@ body {
     width: 50%;
     background-color: #7DDFE8;
   }
-
+  /*--------HOME--------*/
+  /*--------HOME--------*/
   .get-involved-text {
     display: flex;
     flex-flow: row nowrap;
@@ -465,23 +566,6 @@ body {
     width: 50%;
   }
 
-  .main-footing > nav {
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    width: 100%;
-  }
-
-  .main-footing a {
-    width: 10%;
-    padding: 34px 0px 33px 0px;
-  }
-
-  .copyright {
-    width: 70%;
-    text-align: right;
-    padding: 30px 10px 0px 0px;
-  }
-
   #robbery-image-wrapper {
     margin-top: -20px;
   }
@@ -513,12 +597,85 @@ body {
   #metropolis-details {
     margin-top: -30px;
   }
+
+  /*--------JOIN--------*/
+  /*--------JOIN--------*/
+  #profile {
+    width: 50%;
+    margin-right: -25px;
+  }
+
+  #profile-pic {
+    height: 75%;
+    width: 79%;
+    margin: 5px 0px 0px 10px;
+    border-radius: 200px;
+  }
+
+  #profile-pic-container {
+    width: 100%;
+    height: 300px;
+  }
+
+  .join-top-half {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  #join-form {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 25px;
+    width: 50%;
+  }
+
+  #join-form > div > div {
+    margin-bottom: 10px;
+  }
+
+  #password-confpassword {
+    margin-top: 50px;
+  }
+
+
+  #checklist-container {
+    display: flex;
+    flex-flow:column wrap;
+    height: 250px;
+  }
+
+  #join-button > input {
+    width: 20%;
+  }
+
+  /*--------FOOTING--------*/
+  /*--------FOOTING--------*/
+  .main-footing > nav {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .main-footing a {
+    width: 10%;
+    padding: 34px 0px 33px 0px;
+  }
+
+  .copyright {
+    width: 70%;
+    text-align: right;
+    padding: 30px 10px 0px 0px;
+  }
+
 }
 
 /*--------DESKTOP SIZE--------*/
 /*--------DESKTOP SIZE--------*/
 /*--------DESKTOP SIZE--------*/
 @media (min-width:769px) {
+
+/*--------HEADING--------*/
+/*--------HEADING--------*/
   .logo-container {
     width: 15%;
   }
@@ -529,12 +686,14 @@ body {
 
   .main-heading > nav > a{
     width: 15%;
+    height: 23px;
   }
 
   #blank-space {
     width: 85%;
   }
-
+  /*--------HOME--------*/
+  /*--------HOME--------*/
   #up-next {
     flex-flow: row wrap;
   }
@@ -563,7 +722,7 @@ body {
 
   .sub-top-row {
     width: 95%;
-    padding: 15px 0px 0px 10px;
+    padding: 30px 0px 0px 10px;
   }
 
   .sub-bottom-row {
@@ -572,37 +731,76 @@ body {
   }
 
   #robbery-details {
-    margin-top: -10px;
+    margin: 0px 0px 10px 0px;
   }
 
   #theif-details {
-    margin-top: -10px;
+    margin: 0px 0px 10px 0px;
   }
 
   #nosferatu-details {
-    margin-top: -10px;
+    margin: 0px 0px 10px 0px;
   }
 
   #metropolis-details {
-    margin-top: -10px;
+    margin: 0px 0px 10px 0px;
+  }
+  /*--------CALENDAR--------*/
+  /*--------CALENDAR--------*/
+  #week1 > div {
+    height: 90px;
+  }
+  #week2 > div {
+    height: 90px;
+  }
+  #week3 > div {
+    height: 90px;
+  }
+  #week4 > div {
+    height: 90px;
+  }
+  #week5 > div {
+    height: 90px;
   }
 
+  .main-heading a {
+    width: 25%;
+    padding: 34px 0px 33px 0px;
+  }
 
+  /*--------JOIN--------*/
+  /*--------JOIN--------*/
+  #checklist-container {
+    display: flex;
+    flex-flow:column wrap;
+    height: 160px;
+  }
+
+  #profile {
+    width: 40%;
+  }
+
+  #profile-pic-container {
+    height: 300px;
+    width: 300px;
+  }
+
+  #join-form {
+    display: flex;
+    flex-flow:row nowrap;
+    width: 60%;
+  }
+
+  #name-email {
+    width: 50%;
+  }
+
+  #password-confpassword {
+    width: 50%;
+    margin: 0px 0px 0px 10px;
+  }
+
+  #join-button > input {
+    width: 15%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**/

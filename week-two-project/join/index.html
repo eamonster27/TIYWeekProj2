@@ -8,13 +8,16 @@
   </head>
   <body>
     <header class="main-heading">
-      <div class="logo">
+      <div class="logo-container">
+        <div class="logo">
 
+        </div>
       </div>
       <nav>
         <a href="../index.html">Home</a>
         <a href="../calendar/index.html">Calendar</a>
         <a href="index.html">Join</a>
+        <div id="blank-space"></div>
       </nav>
     </header>
 
@@ -22,40 +25,48 @@
 <!----------------------------------------------------------->
 <!----------------------------------------------------------->
       <h2>Join Film Club</h2>
-<!----------------------------------------------------------->
-      <div id="profile">
-        <div id="profile-pic-upload">
-          <p>profile picture</p>
-          <input type="file" name="profile-picture">
-        </div>
-        <div id="profile-pic-default-silhouette">
+      <div class="join-top-half">
 
-        </div>
-      </div>
-<!----------------------------------------------------------->      <div id="join-form">
-        <div id="name-email">
-          <div id="name">
-            <label for="name">name</label>
-            <input type="text" name="name">
+
+  <!----------------------------------------------------------->
+        <div id="profile">
+          <div id="profile-pic-upload">
+            <h6>profile picture</h6>
+            <input type="file" name="profile-picture">
           </div>
-          <div id="email">
-            <label for="email">email address</label>
-            <input type="email" name="email">
-          </div>
-        </div>
-        <!---------------------------------------------------->
-        <div id="password-confpassword">
-          <div id="password">
-            <label for="password">password</label>
-            <input type="password" name="password">
-          </div>
-          <div id="confpassword">
-            <label for="confpassword">confirm password</label>
-            <input type="password" name="confpassword">
+
+          <div id="profile-pic-container">
+            <div id="profile-pic">
+
+            </div>
           </div>
         </div>
-      </div>
+  <!----------------------------------------------------------->
+        <div id="join-form">
+          <div id="name-email">
+            <div id="name">
+              <label for="name">name</label>
+              <input type="text" name="name">
+            </div>
+            <div id="email">
+              <label for="email">email address</label>
+              <input type="email" name="email">
+            </div>
+          </div>
+          <!---------------------------------------------------->
+          <div id="password-confpassword">
+            <div id="password">
+              <label for="password">password</label>
+              <input type="password" name="password">
+            </div>
+            <div id="confpassword">
+              <label for="confpassword">confirm password</label>
+              <input type="password" name="confpassword">
+            </div>
+          </div>
+        </div>
 <!----------------------------------------------------------->
+      </div>
       <div id="genre-interests">
         <p>Which genres are you interested in?</p>
         <div id="checklist-container">
@@ -75,11 +86,13 @@
 <!----------------------------------------------------------->
       <div id="additional-input">
         <p>Additional input</p>
-        <textarea name="addi-input" rows="8" cols="80"></textarea>
+        <textarea name="addi-input" rows="4" cols="56"></textarea>
       </div>
 <!----------------------------------------------------------->
       <br>
-      <input type="button" value="Join Film Club">
+      <div id="join-button">
+        <input type="button" value="Join Film Club">
+      </div>
       <br>
 <!----------------------------------------------------------->
 <!----------------------------------------------------------->
@@ -97,21 +110,3 @@
     </footer>
   </body>
 </html>
-
-
-Which genres are you interested in?
-action
-adventure
-comedy
-drama
-fantasy
-historical
-horror
-mystery
-romance
-science fiction
-western
-
-Additional input
-
-Join Film Club
